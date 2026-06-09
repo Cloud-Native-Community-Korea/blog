@@ -242,6 +242,14 @@ a:hover { text-decoration-color: var(--fg); }
 .prose hr { border: none; border-top: 1px solid var(--border); margin-block: var(--space-5); }
 .prose img { border-radius: var(--radius); margin-inline: auto; }
 
+.prose .luma-embed {
+  display: block;
+  width: 100%;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg-soft);
+}
+
 .prose a.zola-anchor { opacity: 0; margin-left: 0.3em; text-decoration: none; }
 .prose h2:hover a.zola-anchor,
 .prose h3:hover a.zola-anchor { opacity: 0.4; }

@@ -42,6 +42,7 @@ tagline = "Cloud Native Community Korea"
 # Primary navigation. `path` is relative to base_url.
 nav = [
   { name = "blog", path = "/blog/" },
+  { name = "talks", path = "/talks/" },
   { name = "tags", path = "/tags/" },
   { name = "about", path = "/about/" },
 ]
